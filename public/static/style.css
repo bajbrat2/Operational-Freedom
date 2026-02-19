@@ -1729,7 +1729,25 @@ p:last-child { margin-bottom: 0; }
   color: var(--charcoal);
 }
 
-/* === UTILITY === */
+/* === PORTRAIT PHOTO (real image) === */
+.about-portrait-frame img {
+  width: 100%;
+  border-radius: var(--radius);
+  display: block;
+  object-fit: cover;
+  aspect-ratio: 3/4;
+}
+
+/* Keep page-hero btns centered */
+.page-hero-content .btn {
+  position: relative;
+  z-index: 2;
+}
+
+/* Contact page anchor offset for form */
+#contact-form {
+  scroll-margin-top: 100px;
+}
 .text-center { text-align: center; }
 .text-teal { color: var(--teal); }
 .text-sage { color: var(--sage); }

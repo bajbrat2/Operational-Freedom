@@ -30,7 +30,7 @@ export const renderer = jsxRenderer(({ children, title, description }) => {
               <a href="/about" class="nav-link">About</a>
               <a href="/services" class="nav-link">Services</a>
               <a href="/roadmap" class="nav-link">The Roadmap</a>
-              <a href="/contact" class="nav-link nav-cta">Book a Call</a>
+              <a href="https://links.aiservices.amplifyroiai.com/widget/booking/sjYrt5urlLvUY3YE03UJ" target="_blank" rel="noopener" class="nav-link nav-cta">Book a Call</a>
             </div>
           </div>
         </nav>
@@ -66,8 +66,8 @@ export const renderer = jsxRenderer(({ children, title, description }) => {
               </div>
               <div class="footer-col">
                 <h4>Connect</h4>
-                <a href="/contact">Book a Discovery Call</a>
-                <a href="mailto:bev@operationalfreedom.com">bev@operationalfreedom.com</a>
+                <a href="https://links.aiservices.amplifyroiai.com/widget/booking/sjYrt5urlLvUY3YE03UJ" target="_blank" rel="noopener">Book a Discovery Call</a>
+                <a href="mailto:bev@bevscheider.com">bev@bevscheider.com</a>
                 <div class="footer-social">
                   <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
                   <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>

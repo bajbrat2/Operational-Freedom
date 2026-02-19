@@ -26,7 +26,7 @@ app.get('/', (c) => {
               We empower business owners to leverage innovative AI automation without losing the human connection that makes their business exceptional.
             </p>
             <div class="hero-actions">
-              <a href="/contact" class="btn btn-primary">Book a Discovery Call</a>
+              <a href="https://links.aiservices.amplifyroiai.com/widget/booking/sjYrt5urlLvUY3YE03UJ" target="_blank" rel="noopener" class="btn btn-primary">Book a Discovery Call</a>
               <a href="/roadmap" class="btn btn-outline">See the Roadmap</a>
             </div>
           </div>
@@ -82,10 +82,7 @@ app.get('/', (c) => {
           <div class="about-teaser-grid">
             <div class="about-portrait fade-in">
               <div class="about-portrait-frame">
-                <div class="about-portrait-placeholder">
-                  <i class="fas fa-user-circle"></i>
-                  <span>Beverly Scheider<br />Founder & AI Consultant</span>
-                </div>
+                <img src="/static/bev-headshot.jpg" alt="Beverly Scheider — Founder, Operational Freedom" style="width:100%;border-radius:4px;display:block;object-fit:cover;" />
               </div>
               <div class="about-portrait-badge">
                 <div class="badge-num">4</div>
@@ -225,7 +222,7 @@ app.get('/', (c) => {
           <p class="onliness-statement">
             We are the only consultancy that combines <strong>35 years of business grit</strong> with creative "out-of-the-box" thinking to build automated systems that <strong>actually make financial sense.</strong>
           </p>
-          <a href="/contact" class="btn btn-outline">Start Your Freedom Journey</a>
+          <a href="https://links.aiservices.amplifyroiai.com/widget/booking/sjYrt5urlLvUY3YE03UJ" target="_blank" rel="noopener" class="btn btn-outline">Start Your Freedom Journey</a>
         </div>
       </section>
 
@@ -283,7 +280,7 @@ app.get('/', (c) => {
           <span class="accent-heading">Your freedom starts with one conversation.</span>
           <p>In 30 minutes, we'll identify exactly where AI should already be working for you — and what it would cost to make that happen.</p>
           <div class="cta-actions">
-            <a href="/contact" class="btn btn-sage">Book Your Free Discovery Call</a>
+            <a href="https://links.aiservices.amplifyroiai.com/widget/booking/sjYrt5urlLvUY3YE03UJ" target="_blank" rel="noopener" class="btn btn-sage">Book Your Free Discovery Call</a>
             <a href="/services" class="btn btn-outline">Explore All Services</a>
           </div>
         </div>
@@ -317,10 +314,11 @@ app.get('/about', (c) => {
             <div class="story-sidebar fade-in">
               <div class="story-sticky">
                 <div class="story-img-block">
-                  <div class="story-img-placeholder">
-                    <i class="fas fa-user-circle"></i>
-                    <span style="font-family: var(--font-accent); font-style: italic; font-size: 15px; opacity: 0.7; text-align: center; padding: 0 20px;">Beverly Scheider<br />AI Consultant · Speaker · Builder</span>
-                  </div>
+                  <img
+                    src="/static/bev-headshot.jpg"
+                    alt="Beverly Scheider — AI Consultant, Speaker, Builder"
+                    style="width:100%;border-radius:8px;display:block;object-fit:cover;box-shadow:0 12px 40px rgba(78,84,87,0.2);"
+                  />
                 </div>
                 <div class="credentials">
                   <div class="credential-item">
@@ -414,7 +412,7 @@ app.get('/about', (c) => {
               </p>
 
               <div style="margin-top: 40px; display: flex; gap: 16px; flex-wrap: wrap;">
-                <a href="/contact" class="btn btn-primary">Work With Beverly</a>
+                <a href="https://links.aiservices.amplifyroiai.com/widget/booking/sjYrt5urlLvUY3YE03UJ" target="_blank" rel="noopener" class="btn btn-primary">Work With Beverly</a>
                 <a href="/services" class="btn btn-dark">Explore Services</a>
               </div>
             </div>
@@ -465,7 +463,7 @@ app.get('/about', (c) => {
           <h2>Your Business is a Canvas.<br />Let's Paint It Right.</h2>
           <span class="accent-heading">Strategy-first. Human-centered. Built to last.</span>
           <div class="cta-actions">
-            <a href="/contact" class="btn btn-sage">Book a Discovery Call</a>
+            <a href="https://links.aiservices.amplifyroiai.com/widget/booking/sjYrt5urlLvUY3YE03UJ" target="_blank" rel="noopener" class="btn btn-sage">Book a Discovery Call</a>
             <a href="/services" class="btn btn-outline">View All Services</a>
           </div>
         </div>
@@ -521,7 +519,7 @@ app.get('/services', (c) => {
               <li><i class="fas fa-check-circle"></i> Prioritized implementation plan (Phase 1–3)</li>
               <li><i class="fas fa-check-circle"></i> Written deliverable you own and can act on immediately</li>
             </ul>
-            <a href="/contact" class="btn btn-primary">Book the Workshop</a>
+            <a href="https://links.aiservices.amplifyroiai.com/widget/booking/sjYrt5urlLvUY3YE03UJ" target="_blank" rel="noopener" class="btn btn-primary">Book the Workshop</a>
           </div>
           <div class="service-visual">
             <i class="service-visual-icon fas fa-map-marked-alt"></i>
@@ -552,7 +550,7 @@ app.get('/services', (c) => {
               <li><i class="fas fa-check-circle"></i> CRM integration for seamless follow-up</li>
               <li><i class="fas fa-check-circle"></i> Performance dashboard and reporting</li>
             </ul>
-            <a href="/contact" class="btn btn-primary">Build My Digital Anchor</a>
+            <a href="https://links.aiservices.amplifyroiai.com/widget/booking/sjYrt5urlLvUY3YE03UJ" target="_blank" rel="noopener" class="btn btn-primary">Build My Digital Anchor</a>
           </div>
           <div class="service-visual">
             <i class="service-visual-icon fas fa-user-robot"></i>
@@ -583,7 +581,7 @@ app.get('/services', (c) => {
               <li><i class="fas fa-check-circle"></i> Custom voice and brand personality</li>
               <li><i class="fas fa-check-circle"></i> Full call transcripts and analytics</li>
             </ul>
-            <a href="/contact" class="btn btn-primary">Deploy the Sentinel</a>
+            <a href="https://links.aiservices.amplifyroiai.com/widget/booking/sjYrt5urlLvUY3YE03UJ" target="_blank" rel="noopener" class="btn btn-primary">Deploy the Sentinel</a>
           </div>
           <div class="service-visual">
             <i class="service-visual-icon fas fa-phone-alt"></i>
@@ -614,7 +612,7 @@ app.get('/services', (c) => {
               <li><i class="fas fa-check-circle"></i> Scalable architecture for future growth</li>
               <li><i class="fas fa-check-circle"></i> Ongoing support and optimization options</li>
             </ul>
-            <a href="/contact" class="btn btn-primary">Build My Freedom Engine</a>
+            <a href="https://links.aiservices.amplifyroiai.com/widget/booking/sjYrt5urlLvUY3YE03UJ" target="_blank" rel="noopener" class="btn btn-primary">Build My Freedom Engine</a>
           </div>
           <div class="service-visual">
             <i class="service-visual-icon fas fa-network-wired"></i>
@@ -634,7 +632,7 @@ app.get('/services', (c) => {
           <span class="accent-heading">Your clarity session — before your first dollar is invested.</span>
           <p>In one strategic session, we identify exactly where your money is leaking, where AI makes financial sense, and what your path to freedom looks like. This is always step one.</p>
           <div class="cta-actions">
-            <a href="/contact" class="btn btn-sage">Book the Workshop</a>
+            <a href="https://links.aiservices.amplifyroiai.com/widget/booking/sjYrt5urlLvUY3YE03UJ" target="_blank" rel="noopener" class="btn btn-sage">Book the Workshop</a>
             <a href="/about" class="btn btn-outline">About Beverly</a>
           </div>
         </div>
@@ -771,7 +769,7 @@ app.get('/roadmap', (c) => {
           <p class="onliness-statement">
             Time is our most sacred asset. <strong>Every phase of this roadmap is engineered to buy it back</strong> — for your family, your life, and the parts of your business only you can do.
           </p>
-          <a href="/contact" class="btn btn-outline">Start Phase 1 Today</a>
+          <a href="https://links.aiservices.amplifyroiai.com/widget/booking/sjYrt5urlLvUY3YE03UJ" target="_blank" rel="noopener" class="btn btn-outline">Start Phase 1 Today</a>
         </div>
       </section>
 
@@ -781,7 +779,7 @@ app.get('/roadmap', (c) => {
           <h2>Every Roadmap Starts<br />With One Conversation</h2>
           <span class="accent-heading">Book your Freedom Roadmap Workshop — your personalized blueprint.</span>
           <div class="cta-actions">
-            <a href="/contact" class="btn btn-sage">Book the Workshop</a>
+            <a href="https://links.aiservices.amplifyroiai.com/widget/booking/sjYrt5urlLvUY3YE03UJ" target="_blank" rel="noopener" class="btn btn-sage">Book the Workshop</a>
             <a href="/services" class="btn btn-outline">View All Services</a>
           </div>
         </div>
@@ -805,6 +803,12 @@ app.get('/contact', (c) => {
           <span class="section-label" style="color: var(--sage);">Let's Build Something Real</span>
           <h1>Book a Discovery Call</h1>
           <span class="accent-heading">30 minutes to find your freedom path</span>
+          <div style="margin-top: 28px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
+            <a href="https://links.aiservices.amplifyroiai.com/widget/booking/sjYrt5urlLvUY3YE03UJ" target="_blank" rel="noopener" class="btn btn-sage">
+              <i class="fas fa-calendar-check" style="margin-right: 8px;"></i>Schedule Directly
+            </a>
+            <a href="#contact-form" class="btn btn-outline">Or Send a Message</a>
+          </div>
         </div>
       </section>
 
@@ -853,7 +857,7 @@ app.get('/contact', (c) => {
                   <label for="challenge">What's Your Biggest Operational Challenge? *</label>
                   <textarea id="challenge" name="challenge" required placeholder="Tell me where your business is leaking time or money — missed calls, manual processes, slow follow-up..."></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary" style="width: 100%; font-size: 15px;">
+                <button type="submit" class="btn btn-primary" id="submit-btn" style="width: 100%; font-size: 15px;">
                   <i class="fas fa-paper-plane" style="margin-right: 8px;"></i>Send My Message
                 </button>
                 <p style="font-size: 12px; color: var(--charcoal-light); text-align: center; margin-top: 12px;">
@@ -879,7 +883,7 @@ app.get('/contact', (c) => {
                   <div class="contact-detail-icon"><i class="fas fa-envelope"></i></div>
                   <div class="contact-detail-text">
                     <strong>Email</strong>
-                    <span>bev@operationalfreedom.com</span>
+                    <span>bev@bevscheider.com</span>
                   </div>
                 </div>
                 <div class="contact-detail-item">
