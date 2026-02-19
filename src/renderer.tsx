@@ -78,6 +78,11 @@ export const renderer = jsxRenderer(({ children, title, description }) => {
           </div>
           <div class="footer-bottom">
             <p>&copy; 2026 Operational Freedom. All rights reserved. | Built with human grit &amp; creative logic.</p>
+            <div class="footer-legal">
+              <a href="https://app.termly.io/policy-viewer/policy.html?policyUUID=724981d2-1685-42ab-864a-5f2224d7b834" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+              <span class="footer-legal-divider">·</span>
+              <a href="https://app.termly.io/policy-viewer/policy.html?policyUUID=ca0f2221-ce99-4d2f-b0f7-8bc49aee34a0" target="_blank" rel="noopener noreferrer">Terms &amp; Conditions</a>
+            </div>
           </div>
         </footer>
 
