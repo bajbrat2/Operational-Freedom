@@ -105,10 +105,6 @@ app.get('/', (c) => {
                   <div class="pillar-text">Six Sigma Green Belt</div>
                 </div>
                 <div class="pillar">
-                  <div class="pillar-icon"><i class="fas fa-drone"></i></div>
-                  <div class="pillar-text">FAA Part 107 Licensed</div>
-                </div>
-                <div class="pillar">
                   <div class="pillar-icon"><i class="fas fa-microphone"></i></div>
                   <div class="pillar-text">Speaker & Trainer</div>
                 </div>
@@ -322,16 +318,12 @@ app.get('/about', (c) => {
                 </div>
                 <div class="credentials">
                   <div class="credential-item">
+                    <i class="fas fa-robot"></i>
+                    <span>AI Automation Specialist</span>
+                  </div>
+                  <div class="credential-item">
                     <i class="fas fa-certificate"></i>
                     <span>Six Sigma Green Belt</span>
-                  </div>
-                  <div class="credential-item">
-                    <i class="fas fa-plane"></i>
-                    <span>FAA Part 107 Licensed Drone Pilot</span>
-                  </div>
-                  <div class="credential-item">
-                    <i class="fas fa-chalkboard-teacher"></i>
-                    <span>Certified Drone Operator Instructor</span>
                   </div>
                   <div class="credential-item">
                     <i class="fas fa-building"></i>
@@ -344,10 +336,6 @@ app.get('/about', (c) => {
                   <div class="credential-item">
                     <i class="fas fa-palette"></i>
                     <span>Commissioned Acrylic Artist</span>
-                  </div>
-                  <div class="credential-item">
-                    <i class="fas fa-robot"></i>
-                    <span>AI Automation Specialist</span>
                   </div>
                 </div>
               </div>
@@ -420,42 +408,7 @@ app.get('/about', (c) => {
         </div>
       </section>
 
-      {/* Companies Founded */}
-      <section class="section bg-cream section-sm">
-        <div class="container">
-          <div class="section-header fade-in">
-            <span class="section-label">The Portfolio</span>
-            <h2>Four Companies. One Vision.</h2>
-            <span class="accent-heading">Building freedom across multiple industries</span>
-          </div>
-          <div class="services-grid">
-            <div class="service-card fade-in delay-1">
-              <div class="service-card-icon"><i class="fas fa-laugh-beam"></i></div>
-              <div class="service-card-tag">Founder</div>
-              <h3>It's Just Fun LLC</h3>
-              <p>The creative and consulting home base. Where fun, strategy, and real-world business operations converge into something extraordinary.</p>
-            </div>
-            <div class="service-card fade-in delay-2">
-              <div class="service-card-icon"><i class="fas fa-drone-alt"></i></div>
-              <div class="service-card-tag">Founder</div>
-              <h3>Aerial Domination</h3>
-              <p>FAA-licensed drone operations, Lidar scanning, and aerial data solutions for marketing, real estate, agriculture, and beyond.</p>
-            </div>
-            <div class="service-card fade-in delay-3">
-              <div class="service-card-icon"><i class="fas fa-robot"></i></div>
-              <div class="service-card-tag">Founder</div>
-              <h3>AI'm In</h3>
-              <p>Dedicated AI training and consulting: helping organizations adopt ChatGPT, automation tools, and AI platforms with confidence and strategy.</p>
-            </div>
-            <div class="service-card fade-in delay-4">
-              <div class="service-card-icon"><i class="fas fa-chart-pie"></i></div>
-              <div class="service-card-tag">Founder</div>
-              <h3>The Palmer Financial Group Inc.</h3>
-              <p>Bringing 35 years of insurance operations leadership and financial acumen to bear on business strategy and operational transformation.</p>
-            </div>
-          </div>
-        </div>
-      </section>
+
 
       <section class="cta-banner">
         <div class="container">
