@@ -46,7 +46,7 @@ export const renderer = jsxRenderer(({ children, title, description }) => {
                 <span class="footer-logo-main">OPERATIONAL</span>
                 <span class="footer-logo-sub">FREEDOM</span>
               </div>
-              <p class="footer-tagline">Human-centered AI. Built for the real world.</p>
+              <p class="footer-tagline">Human-centered automation. Built for the real world.</p>
             </div>
             <div class="footer-links">
               <div class="footer-col">
