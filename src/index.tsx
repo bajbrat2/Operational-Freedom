@@ -858,8 +858,7 @@ app.get('/contact', (c) => {
               {/* What to Expect */}
               <div style="background: var(--cream); border-radius: var(--radius-lg); padding: 28px; margin-bottom: 24px;">
                 <h4 style="font-size: 14px; color: var(--teal); letter-spacing: 0.15em; margin-bottom: 16px;">WHAT TO EXPECT ON THE CALL</h4>
-                <ul class="phase-items">
-                  <li>Quick audit of your current operational challenges</li>
+                <ul class="phase-items phase-items-dark">
                   <li>Identification of your top 3 revenue leaks</li>
                   <li>A clear picture of which phase to start in</li>
                   <li>Honest assessment of ROI timeline</li>

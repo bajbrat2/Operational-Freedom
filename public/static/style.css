@@ -868,6 +868,24 @@ p:last-child { margin-bottom: 0; }
   margin-top: 1px;
 }
 
+/* Timeline boxes have light cream backgrounds — override bullet text to charcoal */
+.timeline-content .phase-items li {
+  color: var(--charcoal);
+}
+
+.timeline-content .phase-items li::before {
+  color: var(--teal);
+}
+
+/* Any phase-items on a light/cream background */
+.phase-items-dark li {
+  color: var(--charcoal) !important;
+}
+
+.phase-items-dark li::before {
+  color: var(--teal) !important;
+}
+
 /* === ONLINESS / DIFFERENTIATOR === */
 .onliness-section {
   background: var(--teal);
