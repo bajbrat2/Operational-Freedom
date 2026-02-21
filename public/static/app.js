@@ -1,19 +1,6 @@
-// Internal navigation fix for sandbox proxy environment
-// Forces window.location assignment with full origin for all internal links
-document.addEventListener('DOMContentLoaded', function () {
+// Operational Freedom — app.js
 
-  // Fix all internal links to use full URL navigation
-  document.querySelectorAll('a').forEach(function(link) {
-    var href = link.getAttribute('href')
-    if (href && href.startsWith('/') && !href.startsWith('//')) {
-      link.addEventListener('click', function(e) {
-        e.preventDefault()
-        e.stopPropagation()
-        var destination = window.location.protocol + '//' + window.location.host + href
-        window.location.assign(destination)
-      })
-    }
-  })
+document.addEventListener('DOMContentLoaded', function () {
 
   // Contact form handler
   var form = document.getElementById('contact-form')
