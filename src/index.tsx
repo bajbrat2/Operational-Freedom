@@ -206,7 +206,7 @@ app.get('/', (c) => {
             </div>
           </div>
           <div class="text-center" style="margin-top: 48px;">
-            <a href="/roadmap" class="btn btn-sage">Deep Dive into the Roadmap</a>
+            <a href="/roadmap" target="_blank" class="btn btn-sage">Deep Dive into the Roadmap</a>
           </div>
         </div>
       </section>

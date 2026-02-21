@@ -1,23 +1,39 @@
-// Contact form handler
+// Internal navigation fix for sandbox proxy environment
+// Forces window.location assignment with full origin for all internal links
 document.addEventListener('DOMContentLoaded', function () {
-  const form = document.getElementById('contact-form')
-  const successMsg = document.getElementById('form-success')
+
+  // Fix all internal links to use full URL navigation
+  document.querySelectorAll('a').forEach(function(link) {
+    var href = link.getAttribute('href')
+    if (href && href.startsWith('/') && !href.startsWith('//')) {
+      link.addEventListener('click', function(e) {
+        e.preventDefault()
+        e.stopPropagation()
+        var destination = window.location.protocol + '//' + window.location.host + href
+        window.location.assign(destination)
+      })
+    }
+  })
+
+  // Contact form handler
+  var form = document.getElementById('contact-form')
+  var successMsg = document.getElementById('form-success')
 
   if (form) {
     form.addEventListener('submit', async function (e) {
       e.preventDefault()
-      const btn = form.querySelector('button[type="submit"]')
+      var btn = form.querySelector('#submit-btn')
       btn.innerHTML = '<i class="fas fa-spinner fa-spin" style="margin-right: 8px;"></i>Sending...'
       btn.disabled = true
 
-      const formData = new FormData(form)
+      var formData = new FormData(form)
 
       try {
-        const res = await fetch('/api/contact', {
+        var res = await fetch('/api/contact', {
           method: 'POST',
           body: formData
         })
-        const data = await res.json()
+        var data = await res.json()
 
         if (data.success) {
           form.style.display = 'none'
@@ -35,12 +51,4 @@ document.addEventListener('DOMContentLoaded', function () {
     })
   }
 
-  // Force full page navigation for all internal links
-  // (fixes sandbox proxy routing issue)
-  document.querySelectorAll('a[href^="/"]').forEach(function(link) {
-    link.addEventListener('click', function(e) {
-      e.preventDefault()
-      window.location.href = window.location.origin + link.getAttribute('href')
-    })
-  })
 })
