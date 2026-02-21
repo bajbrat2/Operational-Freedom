@@ -222,51 +222,7 @@ app.get('/', (c) => {
         </div>
       </section>
 
-      {/* ── TRUST / TESTIMONIALS ── */}
-      <section class="section trust-section">
-        <div class="container">
-          <div class="section-header fade-in">
-            <span class="section-label">Client Results</span>
-            <h2>Real Businesses.<br />Real Freedom.</h2>
-            <span class="accent-heading">What happens when systems actually work</span>
-          </div>
-          <div class="trust-grid">
-            <div class="trust-card fade-in delay-1">
-              <div class="trust-stars">★★★★★</div>
-              <p class="trust-quote">"Beverly didn't just build us an AI system — she rebuilt how we think about our entire operation. The ROI was visible within 30 days."</p>
-              <div class="trust-author">
-                <div class="trust-avatar">MR</div>
-                <div>
-                  <div class="trust-name">M. Rodriguez</div>
-                  <div class="trust-title">Small Business Owner</div>
-                </div>
-              </div>
-            </div>
-            <div class="trust-card fade-in delay-2">
-              <div class="trust-stars">★★★★★</div>
-              <p class="trust-quote">"The Sentinel Voice System alone saved us from losing thousands in missed call revenue. It's like having a full-time receptionist without the overhead."</p>
-              <div class="trust-author">
-                <div class="trust-avatar">DT</div>
-                <div>
-                  <div class="trust-name">D. Thompson</div>
-                  <div class="trust-title">Service Business Owner</div>
-                </div>
-              </div>
-            </div>
-            <div class="trust-card fade-in delay-3">
-              <div class="trust-stars">★★★★★</div>
-              <p class="trust-quote">"What I appreciated most was that Bev made sure I understood every system she built. The training component meant my team could actually use it."</p>
-              <div class="trust-author">
-                <div class="trust-avatar">SK</div>
-                <div>
-                  <div class="trust-name">S. Kim</div>
-                  <div class="trust-title">Operations Director</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      {/* ── TRUST / TESTIMONIALS ── removed, placeholder for real testimonials ── */}
 
       {/* ── CTA BANNER ── */}
       <section class="cta-banner">
