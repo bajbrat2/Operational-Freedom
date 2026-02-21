@@ -34,4 +34,13 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     })
   }
+
+  // Force full page navigation for all internal links
+  // (fixes sandbox proxy routing issue)
+  document.querySelectorAll('a[href^="/"]').forEach(function(link) {
+    link.addEventListener('click', function(e) {
+      e.preventDefault()
+      window.location.href = window.location.origin + link.getAttribute('href')
+    })
+  })
 })
