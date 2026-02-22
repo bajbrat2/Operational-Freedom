@@ -1091,9 +1091,8 @@ p:last-child { margin-bottom: 0; }
   margin-bottom: 16px;
 }
 .footer-logo-img {
-  height: 100px;
-  width: auto;
-  max-width: 280px;
+  width: 220px;
+  height: auto;
   display: block;
   filter: brightness(0) invert(1);
 }
