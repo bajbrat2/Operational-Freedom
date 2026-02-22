@@ -21,7 +21,7 @@ app.get('/', (c) => {
               Operational<br />
               <span>Freedom</span>
             </h1>
-            <p class="hero-tagline">Human-centered automation. Built for the real world.</p>
+            <p class="hero-tagline">Human-centered AI. Built for the real world.</p>
             <p class="hero-description">
               We empower business owners to leverage innovative AI automation without losing the human connection that makes their business exceptional.
             </p>
