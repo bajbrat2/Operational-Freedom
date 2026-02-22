@@ -42,9 +42,8 @@ export const renderer = jsxRenderer(({ children, title, description }) => {
           <div class="footer-container">
             <div class="footer-brand">
               <div class="footer-logo">
-                <img src="/static/logo.png" alt="Operational Freedom" class="footer-logo-img" />
+                <img src="/static/logo-tagline.png" alt="Operational Freedom — Human-centered AI. Built for the real world." class="footer-logo-img" />
               </div>
-              <p class="footer-tagline">Human-centered AI. Built for the real world.</p>
             </div>
             <div class="footer-links">
               <div class="footer-col">
