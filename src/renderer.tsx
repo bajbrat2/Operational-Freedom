@@ -19,8 +19,7 @@ export const renderer = jsxRenderer(({ children, title, description }) => {
         <nav class="nav" id="main-nav">
           <div class="nav-container">
             <a href="/" class="nav-logo">
-              <span class="nav-logo-main">OPERATIONAL</span>
-              <span class="nav-logo-sub">FREEDOM</span>
+              <img src="/static/logo.png" alt="Operational Freedom" class="nav-logo-img" />
             </a>
             <button class="nav-hamburger" id="nav-hamburger" aria-label="Toggle menu">
               <span></span><span></span><span></span>
@@ -43,8 +42,7 @@ export const renderer = jsxRenderer(({ children, title, description }) => {
           <div class="footer-container">
             <div class="footer-brand">
               <div class="footer-logo">
-                <span class="footer-logo-main">OPERATIONAL</span>
-                <span class="footer-logo-sub">FREEDOM</span>
+                <img src="/static/logo.png" alt="Operational Freedom" class="footer-logo-img" />
               </div>
               <p class="footer-tagline">Human-centered automation. Built for the real world.</p>
             </div>
