@@ -18,13 +18,10 @@ app.get('/', (c) => {
           <div class="hero-text fade-in">
             <p class="hero-eyebrow">AI Automation Consulting</p>
             <h1 class="hero-h1">
-              Operational<br />
-              <span>Freedom</span>
+              Your Business Should Run<br />
+              <span>Without You Running It.</span>
             </h1>
-            <p class="hero-tagline">Human-centered AI. Built for the real world.</p>
-            <p class="hero-description">
-              We empower business owners to leverage innovative AI automation without losing the human connection that makes their business exceptional.
-            </p>
+            <p class="hero-tagline">AI Systems Built for Real Operations — by someone who's run real businesses.</p>
             <div class="hero-actions">
               <a href="https://links.aiservices.amplifyroiai.com/widget/booking/sjYrt5urlLvUY3YE03UJ" target="_blank" rel="noopener" class="btn btn-primary">Book a Discovery Call</a>
               <a href="/roadmap" class="btn btn-outline">See the Roadmap</a>
