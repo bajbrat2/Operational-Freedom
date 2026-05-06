@@ -490,13 +490,10 @@ app.get('/services', (c) => {
             </ul>
             <a href="https://links.aiservices.amplifyroiai.com/widget/booking/sjYrt5urlLvUY3YE03UJ" target="_blank" rel="noopener" class="btn btn-primary">Book the Workshop</a>
           </div>
-          <div class="service-visual">
-            <i class="service-visual-icon fas fa-map-marked-alt"></i>
-            <div class="service-visual-content">
-              <div class="service-phase-badge"><i class="fas fa-flag"></i> Recommended First Step</div>
-              <h3 style="margin-top: 20px;">The Freedom Roadmap Workshop</h3>
-              <p style="opacity: 0.8; font-size: 15px;">Your strategic blueprint for operational transformation</p>
-            </div>
+          <div class="service-visual service-visual-image">
+            <video autoplay loop muted playsinline style="width: 100%; height: 100%; object-fit: contain; border-radius: var(--radius-lg);">
+              <source src="/static/flowchart-animated for website.mp4" type="video/mp4" />
+            </video>
           </div>
         </div>
 
@@ -521,13 +518,8 @@ app.get('/services', (c) => {
             </ul>
             <a href="https://links.aiservices.amplifyroiai.com/widget/booking/sjYrt5urlLvUY3YE03UJ" target="_blank" rel="noopener" class="btn btn-primary">Build My Digital Anchor</a>
           </div>
-          <div class="service-visual">
-            <i class="service-visual-icon fas fa-user-robot"></i>
-            <div class="service-visual-content">
-              <div class="service-phase-badge"><i class="fas fa-bolt"></i> Phase 1 — Emergency Intervention</div>
-              <h3 style="margin-top: 20px;">The 24/7 Digital Anchor</h3>
-              <p style="opacity: 0.8; font-size: 15px;">Your AI employee never misses a lead</p>
-            </div>
+          <div class="service-visual service-visual-image">
+            <img src="/static/chat widget example.png" alt="The 24/7 Digital Anchor — AI chat widget capturing leads" style="width: 100%; height: 100%; object-fit: contain; border-radius: var(--radius-lg);" />
           </div>
         </div>
 
@@ -552,13 +544,8 @@ app.get('/services', (c) => {
             </ul>
             <a href="https://links.aiservices.amplifyroiai.com/widget/booking/sjYrt5urlLvUY3YE03UJ" target="_blank" rel="noopener" class="btn btn-primary">Deploy the Sentinel</a>
           </div>
-          <div class="service-visual">
-            <i class="service-visual-icon fas fa-phone-alt"></i>
-            <div class="service-visual-content">
-              <div class="service-phase-badge"><i class="fas fa-bolt"></i> Phase 1 — Emergency Intervention</div>
-              <h3 style="margin-top: 20px;">The Sentinel Voice System</h3>
-              <p style="opacity: 0.8; font-size: 15px;">Never miss another inbound call</p>
-            </div>
+          <div class="service-visual service-visual-image">
+            <img src="/static/iphone ringing.png" alt="The Sentinel Voice System — AI-powered inbound call handling" style="width: 100%; height: 100%; object-fit: contain; border-radius: var(--radius-lg);" />
           </div>
         </div>
 
@@ -583,13 +570,8 @@ app.get('/services', (c) => {
             </ul>
             <a href="https://links.aiservices.amplifyroiai.com/widget/booking/sjYrt5urlLvUY3YE03UJ" target="_blank" rel="noopener" class="btn btn-primary">Build My Freedom Engine</a>
           </div>
-          <div class="service-visual">
-            <i class="service-visual-icon fas fa-network-wired"></i>
-            <div class="service-visual-content">
-              <div class="service-phase-badge"><i class="fas fa-rocket"></i> Phase 3 — Full Optimization</div>
-              <h3 style="margin-top: 20px;">The Operational Freedom Engine</h3>
-              <p style="opacity: 0.8; font-size: 15px;">Your complete front-end AI team</p>
-            </div>
+          <div class="service-visual service-visual-image">
+            <img src="/static/new human infographic with new co name.png" alt="The H.U.M.A.N. Framework — Operational Freedom Engine infographic" style="width: 100%; height: 100%; object-fit: contain; border-radius: var(--radius-lg);" />
           </div>
         </div>
       </div>

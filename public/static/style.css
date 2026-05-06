@@ -1404,6 +1404,20 @@ p:last-child { margin-bottom: 0; }
 .full-service:nth-child(3) .service-visual { background: linear-gradient(135deg, var(--teal), var(--sage)); }
 .full-service:nth-child(4) .service-visual { background: linear-gradient(135deg, var(--charcoal-dark), var(--teal-dark)); }
 
+.service-visual-image {
+  padding: 0;
+  overflow: hidden;
+  background: var(--navy);
+  border: 6px solid var(--navy);
+}
+
+.service-visual-video {
+  padding: 0;
+  overflow: hidden;
+  background: var(--navy);
+  border: 6px solid var(--navy);
+}
+
 .service-visual-icon {
   font-size: 100px;
   color: rgba(255,255,255,0.15);
