@@ -237,7 +237,54 @@ app.get('/', (c) => {
     </>,
     {
       title: 'Operational Freedom | Human-Centered AI. Built for the Real World.',
-      description: 'Beverly Scheider combines 35 years of business operations with creative AI thinking to build systems that make financial sense for small and mid-sized businesses.'
+      description: 'Beverly Scheider combines 35 years of business operations with creative AI thinking to build systems that make financial sense for small and mid-sized businesses.',
+      path: '/',
+      schema: {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What does Operational Freedom do?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Operational Freedom helps small and mid-sized businesses implement practical AI automation systems that stop revenue leaks, simplify operations, and buy back time. We build AI voice agents, website chatbots, CRM automations, and complete AI employee suites using a Consult-Train-Implement model."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the Freedom Roadmap Workshop?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The Freedom Roadmap Workshop is a strategic deep-dive that identifies exactly where AI should already be working in your business. It includes a full operational audit, revenue leak identification and quantification, a phased automation roadmap with ROI projections, and a written deliverable you can act on immediately."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is an AI voice agent and how can it help my business?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "An AI voice agent is a professional AI-powered phone system that answers inbound calls 24/7 with the warmth and professionalism of your best team member. It qualifies callers, answers FAQs, books appointments, routes urgent calls, and captures contact information — so you never miss a lead, even at 2am on a Sunday."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How is Operational Freedom different from other AI consultants?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Operational Freedom combines 35+ years of real business operations experience with creative AI implementation. We don't just consult — we build. Every automation is a calculated financial move, not tech for tech's sake. We use a Consult-Train-Implement model so you understand and own every system we build."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What types of businesses does Operational Freedom work with?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We work primarily with small to mid-sized businesses that are losing revenue through missed calls, slow response times, manual processes, and poor follow-up. This includes medical clinics, professional services, home services, and any business where operational gaps are costing time and money."
+            }
+          }
+        ]
+      }
     }
   )
 })
@@ -377,7 +424,23 @@ app.get('/about', (c) => {
     </>,
     {
       title: 'About Beverly Scheider | Operational Freedom',
-      description: '35 years of business operations, IT leadership, and creative thinking. Beverly Scheider is the builder behind Operational Freedom.'
+      description: '35 years of business operations, IT leadership, and creative thinking. Beverly Scheider is the builder behind Operational Freedom.',
+      path: '/about',
+      schema: {
+        "@context": "https://schema.org",
+        "@type": "ProfilePage",
+        "mainEntity": {
+          "@type": "Person",
+          "@id": "https://operational-freedom.com/#person",
+          "name": "Beverly Scheider",
+          "image": "https://operational-freedom.com/static/bev-headshot.jpg",
+          "jobTitle": "AI Automation Consultant & Founder",
+          "description": "35+ years of business operations and IT leadership experience. Six Sigma Green Belt. Commissioned acrylic artist. Builds practical AI automation systems for small and mid-sized businesses.",
+          "knowsAbout": ["AI Automation", "Business Operations", "Process Improvement", "Six Sigma", "IT Leadership", "CRM Systems", "AI Voice Agents", "Workflow Automation"],
+          "hasCredential": { "@type": "EducationalOccupationalCredential", "credentialCategory": "certification", "name": "Six Sigma Green Belt" },
+          "worksFor": { "@id": "https://operational-freedom.com/#organization" }
+        }
+      }
     }
   )
 })
@@ -546,7 +609,64 @@ app.get('/services', (c) => {
     </>,
     {
       title: 'Services | Operational Freedom',
-      description: 'AI automation services for small and mid-sized businesses. The Freedom Roadmap Workshop, 24/7 Digital Anchor, Sentinel Voice System, and Operational Freedom Engine.'
+      description: 'AI automation services for small and mid-sized businesses. The Freedom Roadmap Workshop, 24/7 Digital Anchor, Sentinel Voice System, and Operational Freedom Engine.',
+      path: '/services',
+      schema: {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "name": "Operational Freedom AI Automation Services",
+        "description": "Four phased AI automation services designed to stop revenue leaks and build operational freedom for small and mid-sized businesses.",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@type": "Service",
+              "name": "The Freedom Roadmap Workshop",
+              "url": "https://operational-freedom.com/services#workshop",
+              "provider": { "@id": "https://operational-freedom.com/#organization" },
+              "description": "Strategic deep-dive that identifies where AI should already be working in your business. Includes full operational audit, revenue leak identification, and phased automation roadmap with ROI projections.",
+              "serviceType": "AI Strategy Consulting"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+              "@type": "Service",
+              "name": "The 24/7 Digital Anchor",
+              "url": "https://operational-freedom.com/services#anchor",
+              "provider": { "@id": "https://operational-freedom.com/#organization" },
+              "description": "Custom AI employee trained on your unique services, brand voice, and lead capture process. Engages website visitors, qualifies prospects, and books consultations around the clock.",
+              "serviceType": "AI Chatbot Development"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+              "@type": "Service",
+              "name": "The Sentinel Voice System",
+              "url": "https://operational-freedom.com/services#sentinel",
+              "provider": { "@id": "https://operational-freedom.com/#organization" },
+              "description": "Professional AI voice agent that answers every inbound call 24/7 with your brand's warmth. Qualifies leads, books appointments, handles FAQs, and captures contact information.",
+              "serviceType": "AI Voice Agent Deployment"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "item": {
+              "@type": "Service",
+              "name": "The Operational Freedom Engine",
+              "url": "https://operational-freedom.com/services#engine",
+              "provider": { "@id": "https://operational-freedom.com/#organization" },
+              "description": "Complete front-end AI team for your business — CRM integrations, automated workflows, and scalable AI infrastructure. Full operational transformation delivered through the Consult-Train-Implement model.",
+              "serviceType": "Full AI Operations Build"
+            }
+          }
+        ]
+      }
     }
   )
 })
@@ -693,7 +813,34 @@ app.get('/roadmap', (c) => {
     </>,
     {
       title: 'The Roadmap to Freedom | Operational Freedom',
-      description: 'A phased strategy for AI-driven business transformation. Phase 1: Emergency Intervention. Phase 2: Gap Closure. Phase 3: Operational Optimization.'
+      description: 'A phased strategy for AI-driven business transformation. Phase 1: Emergency Intervention. Phase 2: Gap Closure. Phase 3: Operational Optimization.',
+      path: '/roadmap',
+      schema: {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "The Roadmap to Operational Freedom",
+        "description": "A three-phase strategy for AI-driven business transformation using the Consult-Train-Implement model.",
+        "step": [
+          {
+            "@type": "HowToStep",
+            "name": "Phase 1: Stop the Revenue Hemorrhage",
+            "text": "Deploy immediate tools to stop critical revenue leaks. AI voice agent for 24/7 call coverage, digital anchor for continuous lead capture, and revenue leak audit.",
+            "position": 1
+          },
+          {
+            "@type": "HowToStep",
+            "name": "Phase 2: Close the Operational Gaps",
+            "text": "Systematic gap closure through CRM automation, automated follow-up sequences, manual task elimination, and data flow optimization across platforms.",
+            "position": 2
+          },
+          {
+            "@type": "HowToStep",
+            "name": "Phase 3: Build the Competitive Moat",
+            "text": "Full AI Employee Suite deployed, scalable systems architecture established, competitive moat built, and team training completed so you own the system.",
+            "position": 3
+          }
+        ]
+      }
     }
   )
 })
@@ -836,7 +983,27 @@ app.get('/contact', (c) => {
     </>,
     {
       title: 'Book a Discovery Call | Operational Freedom',
-      description: '30 minutes to find your path to operational freedom. Book a discovery call with Beverly Scheider today.'
+      description: '30 minutes to find your path to operational freedom. Book a discovery call with Beverly Scheider today.',
+      path: '/contact',
+      schema: {
+        "@context": "https://schema.org",
+        "@type": "ContactPage",
+        "name": "Contact Operational Freedom",
+        "url": "https://operational-freedom.com/contact",
+        "mainEntity": {
+          "@type": "ProfessionalService",
+          "@id": "https://operational-freedom.com/#business",
+          "name": "Operational Freedom",
+          "email": "bev@bevscheider.com",
+          "url": "https://operational-freedom.com",
+          "areaServed": { "@type": "Country", "name": "United States" },
+          "availableChannel": {
+            "@type": "ServiceChannel",
+            "serviceUrl": "https://links.aiservices.amplifyroiai.com/widget/booking/sjYrt5urlLvUY3YE03UJ",
+            "name": "Book a Discovery Call"
+          }
+        }
+      }
     }
   )
 })
