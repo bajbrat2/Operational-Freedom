@@ -1830,3 +1830,10 @@ p:last-child { margin-bottom: 0; }
   .service-visual { min-height: 240px; }
   .hero-actions { flex-direction: column; align-items: flex-start; }
 }
+
+/* === THINKRR VOICE WIDGET FIX === */
+.wcw-widget-wrapper {
+  position: fixed !important;
+  bottom: 20px !important;
+  right: 20px !important;
+}
