@@ -126,6 +126,10 @@ export const renderer = jsxRenderer(({ children, title, description }) => {
             observer.observe(el);
           });
         ` }} />
+
+        {/* Voice Widget */}
+        <script src="https://d2cqc7yqzf8c8f.cloudfront.net/web-widget-v1.js"></script>
+        <div data-widget-key="600b1748-f129-40b8-bbf1-18ed700bc256"></div>
       </body>
     </html>
   )
